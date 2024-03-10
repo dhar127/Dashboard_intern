@@ -1,0 +1,39 @@
+/* MainContent.css */
+.main-content {
+    padding: 20px;
+    background: linear-gradient(to right, #3498db, #9b59b6); /* Gradient background */
+    color: #fff; /* White text color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Stronger shadow effect */
+  }
+  
+  .main-content h2 {
+    color: #fff; /* White heading color */
+  }
+  
+  .main-content p {
+    color: rgba(255, 255, 255, 0.9); /* Slightly transparent white text color */
+    line-height: 1.6; /* Improved readability */
+  }
+  
+  .highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .highlight {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent white background */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3); /* Soft shadow effect with transparency */
+  }
+  
+  .highlight h3 {
+    color: #fff; /* White heading color for highlights */
+  }
+  
+  .highlight p {
+    color: rgba(255, 255, 255, 0.9); /* Slightly transparent white text color for highlights */
+  }
+  
